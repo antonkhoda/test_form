@@ -48,6 +48,9 @@ input {
 .wrapper {
     width: 1440px;
     margin: 0 auto;
+}
+
+.wrapper--registration{
     padding-top: 60px;
 }
 
@@ -126,6 +129,16 @@ input {
     background-color: #B9CAEB;
 }
 
+.input--btn--light{
+    background-color: #FFFFFF;
+    border: 1px solid #0053F0;
+    color: #0053F0;
+}
+
+.input--btn--light:hover{
+    color: #FFFFFF;
+}
+
 .input--checkbox{
     width: 15px;
     height: 15px;
@@ -138,13 +151,16 @@ input {
 }
 
 .form__el-eye,
-.form__el-error-pic{
+.form__el-pencil,
+.form__el-error-pic,
+.form__el-btns{
     position: absolute;
     right: 0;
     top: 10px;
 }
 
 .form__el-eye,
+.form__el-pencil,
 .form__el-error-pic,
 .message-errror__pic{
     width: 25px;
@@ -166,6 +182,31 @@ input {
 .form__el-eye{
     background: url('../images/icons/eye.svg') no-repeat center;
     cursor: pointer;
+}
+
+.form__el-eye--checked{
+    background: url('../images/icons/eye-checked.svg') no-repeat center;
+}
+
+.form__el-pencil{
+    background: url('../images/icons/pencil.svg') no-repeat center;
+    cursor: pointer;
+}
+
+.form__el-btns{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.form__el-btns .form__el-pencil{
+    margin-left: 10px;
+}
+
+.form__el-btns .form__el-eye,
+.form__el-btns .form__el-pencil{
+    position: relative;
+    top: 0;
 }
 
 .form__el-error{
@@ -210,6 +251,15 @@ input {
 
 .form__el--filled .form__el-label{
     color: #64768F;
+}
+
+.form__btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__btns .input--btn{
+    width: 49%;
 }
 
 .txt--small{
@@ -270,6 +320,85 @@ input {
 .box-bottom__txt{
     padding: 20px 0;
 }
+
+.body-grey{
+    background-color: #F6F6F6;
+}
+
+.header{
+    background-color: #0066F2;
+}
+
+.header-box,
+.main{
+    padding: 30px;
+}
+
+.header-box__logo{
+    display: block;
+    width: 110px;
+    height: 20px;
+    background: url('../images/icons/logo-white.svg') no-repeat center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu{
+    margin-right: 30px;
+    padding: 30px 0;
+}
+
+.main-menu__link{
+    display: flex;
+    justify-content: flex-start;
+    width: 225px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #B9CAEB;
+}
+
+.main-menu__link-block{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;  
+    background-color: #B9CAEB;
+}
+
+.main-menu__link--active{
+    color: #263238;
+    font-weight: 600;
+    border-right: 4px solid #0066F2;
+}
+
+.main-menu__link--active .main-menu__link-block{
+    background-color: #0066F2;
+}
+
+.main-content{
+    width: 100%;
+    min-height: 770px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 35px;
+}
+
+.main-content__title{
+    font-size: 24px;
+    color: #0066F2;
+    margin-bottom: 70px;
+}
+
+.main-content__form{
+    width: 45%;
+}
+
+.main-content__form .input--txt{
+    padding-right: 70px;
+}
+
 
 .form__el-input,
 .form__el-label,
