@@ -86,10 +86,6 @@ input {
     margin: 0 auto;
 }
 
-.form-wrapper--indent{
-    margin-bottom: 120px;
-}
-
 .form{
     display: flex;
     justify-content: center;
@@ -299,6 +295,11 @@ input {
     margin-bottom: 70px;
 }
 
+.block-mail--small{
+    width: 60%;
+    text-align: start;
+}
+
 .block-mail__pic{
     width: 50px;
     height: 40px;
@@ -313,7 +314,16 @@ input {
     color: #0066F2;
 }
 
+/* .vertical-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
 .box-bottom{
+    width: 600px;
+    position: fixed;
+    bottom: 0;
     text-align: center;
 }
 
