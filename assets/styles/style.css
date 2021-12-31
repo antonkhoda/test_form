@@ -518,7 +518,52 @@ input {
   min-height: 770px;
   background-color: #ffffff;
   border-radius: 8px;
-  padding: 35px;
+  padding: 30px 35px;
+}
+
+.main-content--bricks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+}
+
+.main-content--bricks--small,
+.main-content--bricks--big {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.main-content--bricks--big {
+  width: 630px;
+}
+
+.main-content--bricks--small {
+  width: 370px;
+}
+
+.bricks-title {
+  font-size: 18px;
+  color: #64768f;
+  margin-bottom: 30px;
+}
+
+.bricks-content-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.bricks-content {
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+
+.bricks-btn {
+  width: 80%;
 }
 
 .main-content__title {
