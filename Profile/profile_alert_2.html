@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+  </head>
+
+  <body class="body-grey">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-box">
+          <a href="#" class="header-box__logo"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main wrapper">
+      <aside class="main-menu">
+        <div class="main-menu__header">
+          <span>Settings</span>
+          <a href="#" class="main-menu__header-close"></a>
+        </div>
+        <a href="#" class="link main-menu__link main-menu__link--active">
+          <img
+            src="../assets/images/icons/profile/personal_profile.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/personal_profile_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Personal profile
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/company_profile.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/company_profile_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Company profile
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/integrations.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/integrations_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Integrations
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/api_tokens.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/api_tokens_active.svg"
+            class="main-menu__link-block--active"
+          />
+          API tokens
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/team.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/team_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Team
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/notification.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/notification_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Notification
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img
+            src="../assets/images/icons/profile/security.svg"
+            class="main-menu__link-block"
+          />
+          <img
+            src="../assets/images/icons/profile/security_active.svg"
+            class="main-menu__link-block--active"
+          />
+          Security
+        </a>
+      </aside>
+      <div class="main-content">
+        <h3 class="main-content__title">Personal Profile</h3>
+        <form class="form main-content__form">
+          <div class="form__el">
+            <input
+              type="text"
+              class="input input--txt form__el-input"
+              id="firstName"
+            />
+            <label class="form__el-label" for="firstName">First Name *</label>
+            <div class="form__el-pencil"></div>
+          </div>
+          <div class="form__el form__el--filled">
+            <input
+              type="text"
+              class="input input--txt form__el-input"
+              id="lastName"
+            />
+            <label class="form__el-label" for="lastName">Last Name *</label>
+            <div class="form__el-pencil"></div>
+          </div>
+          <div class="form__el">
+            <input
+              type="email"
+              class="input input--txt form__el-input"
+              id="email"
+            />
+            <label class="form__el-label" for="email">Email *</label>
+            <div class="form__el-pencil"></div>
+          </div>
+          <div class="form__el">
+            <input
+              type="password"
+              class="input input--txt form__el-input"
+              id="password"
+            />
+            <label class="form__el-label" for="password">Password *</label>
+            <div class="form__el-btns">
+              <div class="form__el-eye form__el-eye--checked"></div>
+              <div class="form__el-pencil"></div>
+            </div>
+          </div>
+          <div class="form__btns">
+            <input
+              type="button"
+              value="Cancel"
+              class="input input--btn input--btn--light"
+            />
+            <input type="button" value="Confirm" class="input input--btn" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <div class="alert">
+      <div class="alert-block">
+        <img
+          src="../assets/images/icons/alert_check.svg"
+          class="alert-block__img"
+        />
+        <h2 class="alert-block__title">
+          Your changes have been successfully saved!
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>

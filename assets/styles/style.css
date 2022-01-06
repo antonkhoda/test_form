@@ -395,7 +395,7 @@ input {
   flex-direction: column;
   align-items: center;
   width: 700px;
-  padding: 50px 150px;
+  padding: 50px 130px;
   background-color: #ffffff;
   border-top: 8px solid #0066f2;
   border-radius: 8px;
@@ -415,6 +415,20 @@ input {
   font-size: 24px;
   margin-bottom: 20px;
   color: #0066f2;
+}
+
+.alert-block__btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.alert-block__txt {
+  margin-bottom: 40px;
+}
+
+.alert-block__btns .input {
+  width: 49%;
 }
 
 .header {
