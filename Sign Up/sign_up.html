@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper wrapper--registration">
+      <a href="#" class="link link--nav">
+        <div class="link--nav-img"></div>
+        Back
+      </a>
+      <div class="box">
+        <a href="#" class="box-logo"></a>
+        <h2 class="box-title">Welcome to AmnaPay!</h2>
+        <div class="form-wrapper">
+          <form class="form">
+            <div class="form__el txt--error-block">
+              <input
+                type="text"
+                class="input input--txt form__el-input"
+                id="firstName"
+              />
+              <label class="form__el-label" for="firstName">First Name *</label>
+              <div class="form__el-error-pic"></div>
+              <div class="txt--small txt--error">This field is required!</div>
+            </div>
+            <div class="form__el form__el--filled">
+              <input
+                type="text"
+                class="input input--txt form__el-input"
+                id="lastName"
+              />
+              <label class="form__el-label" for="lastName">Last Name *</label>
+            </div>
+            <div class="form__el">
+              <input
+                type="email"
+                class="input input--txt form__el-input"
+                id="email"
+              />
+              <label class="form__el-label" for="email">Email *</label>
+            </div>
+            <div class="form__el">
+              <input
+                type="password"
+                class="input input--txt form__el-input"
+                id="password"
+              />
+              <label class="form__el-label" for="password">Password *</label>
+              <div class="form__el-eye"></div>
+              <div class="form__el-message txt--small">
+                <p>
+                  At least one
+                  <span class="txt--blue"
+                    >uppercase letter, one lowercase letter, one number</span
+                  >
+                </p>
+                <p><span class="txt--blue">0</span>/8</p>
+              </div>
+            </div>
+            <div class="form__el">
+              <input
+                type="password"
+                class="input input--txt form__el-input"
+                id="repeatPassword"
+              />
+              <label class="form__el-label" for="repeatPassword"
+                >Repeat Password *</label
+              >
+              <div class="form__el-eye"></div>
+            </div>
+            <div class="form__el">
+              <label class="label">
+                <input type="checkbox" class="input--checkbox" />
+                I agree to the terms of
+                <span class="txt--blue">service</span> and
+                <span class="txt--blue">privacy policy</span>
+              </label>
+            </div>
+            <input
+              type="submit"
+              value="Sign Up"
+              class="input input--btn"
+              disabled
+            />
+            <div class="form__el-message form__el-message--leftside">
+              Already have an account?
+              <a href="#" class="link txt--blue">Sign In</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
