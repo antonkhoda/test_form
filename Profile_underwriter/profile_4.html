@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>profile</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-box">
+        <a href="#" class="header-box__logo"></a>
+      </div>
+    </div>
+  </header>
+  <main class="body-grey">
+    <div class="main wrapper">
+      <aside class="main-menu">
+        <div class="main-menu__header">
+          <span>Settings</span>
+          <a href="#" class="main-menu__header-close"></a>
+        </div>
+        <a href="#" class="link main-menu__link main-menu__link--active">
+          <img src="../assets/images/icons/profile/personal_profile.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/personal_profile_active.svg" class="main-menu__link-block--active" />
+          Personal profile
+        </a>
+        <div class="main-menu__footer">
+          <a href="#" class="link main-menu__link main-menu__footer-close">
+            <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+          </a>
+        </div>
+      </aside>
+      <section class="main-box">
+        <p class="main-box__bread-crumbs">Profile/ Edition</p>
+        <h2 class="main-box__title">Personal Profile</h2>
+        <div class="main-content">
+          <div class="main-content__title">
+            John Smith
+          </div>
+          <hr class="line">
+          <form class="form main-content__form">
+            <div class="form__el">
+              <input type="text" class="input input--txt form__el-input" id="firstName" />
+              <label class="form__el-label" for="firstName">First Name</label>
+            </div>
+            <div class="form__el form__el--filled">
+              <input type="text" class="input input--txt form__el-input" id="lastName" />
+              <label class="form__el-label" for="lastName">Last Name</label>
+            </div>
+            <div class="form__el">
+              <input type="email" class="input input--txt form__el-input" id="email" />
+              <label class="form__el-label" for="email">Email</label>
+            </div>
+            <div class="form__el">
+              <input type="password" class="input input--txt form__el-input" id="password" />
+              <label class="form__el-label" for="password">Password</label>
+              <div class="form__el-btns">
+                <div class="form__el-eye form__el-eye--checked"></div>
+              </div>
+              <div class="form__el-status">
+                <div class="status-bar">
+                  <div class="status-bar__gradient"></div>
+                  <div class="status-bar__progress" style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+            <div class="form__el">
+              <input type="password" class="input input--txt form__el-input" id="password" />
+              <label class="form__el-label" for="password">Password</label>
+              <div class="form__el-btns">
+                <div class="form__el-eye form__el-eye--checked"></div>
+              </div>
+            </div>
+            <div class="form__el">
+              <input type="text" class="input input--txt form__el-input" id="password" />
+              <label class="form__el-label" for="password">Phone number</label>
+            </div>
+            <div class="form__btns">
+              <input type="button" value="Cancel" class="input input--btn input--btn--light" />
+              <input type="button" value="Confirm" class="input input--btn" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
