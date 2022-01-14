@@ -628,7 +628,9 @@ option {
 .main-menu__link {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   width: 225px;
+  line-height: 16px;
   padding: 10px 0;
   margin-bottom: 10px;
   color: #b9caeb;
@@ -1004,9 +1006,7 @@ option {
 .form__el-label,
 .link--nav,
 .settings-link,
-.input--btn,
-.main-menu__footer-settings,
-.main-menu__footer-close {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+.input--btn {
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
