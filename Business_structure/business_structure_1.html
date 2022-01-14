@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>business structure 1</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+</head>
+
+<body>
+  <div class="body-grey"></div>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-box">
+        <a href="#" class="header-box__logo"></a>
+      </div>
+    </div>
+  </header>
+  <main class="main wrapper">
+    <aside class="main-menu main-menu--padding">
+      <a href="#" class="link main-menu__link main-menu__link--active">
+        <img src="../assets/images/icons/profile/home.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/home_active.svg" class="main-menu__link-block--active" />
+        Home
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/transactions.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/transactions_active.svg" class="main-menu__link-block--active" />
+        Transactions
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/payments.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/payments_active.svg" class="main-menu__link-block--active" />
+        Payments
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/cards.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/cards_active.svg" class="main-menu__link-block--active" />
+        Cards
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/account.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/account_active.svg" class="main-menu__link-block--active" />
+        Account
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
+        Products
+      </a>
+      <div class="main-menu__footer">
+        <a href="#" class="link main-menu__link main-menu__footer-settings">
+          <img src="../assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
+          Settings
+        </a>
+        <a href="#" class="link main-menu__link main-menu__footer-close">
+          <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+        </a>
+      </div>
+    </aside>
+    <section class="main-box">
+      <p class="main-box__bread-crumbs">Profile/ Edition</p>
+      <h2 class="main-box__title">Onboarding</h2>
+      <div class="main-content main-content--sole-proprietorship">
+
+        <div class="main-content__container main-content__container--first">
+          <h2 class="main-content__title">
+            Personal Information
+          </h2>
+          <div class="main-content__block">
+            <div class="main-content__block-info">
+              <p class="txt">
+                The information Stripe collets about your business helps us meet requirements from regulators, financial
+                partners and our <span class="txt--blue">Services Agreement.</span>
+              </p>
+              <div class="main-content__block-info-img">
+                <img src="../assets/images/icons/business structure/block_1_1of3.svg" class="main-content__img">
+                <img src="../assets/images/icons/business structure/block_1_1of2.svg" class="main-content__img main-content__img--sole-proprietorship">
+                <div class="main-content__block-info-img-btns">
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_left.svg">
+                  </button>
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_right.svg">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="main-content__block-form">
+              <form class="form">
+                <div class="form__el form__el--filled">
+                  <select id="country" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="country">Country *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <select id="region" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="region">Region/City *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="address" />
+                  <label class="form__el-label" for="address">Address: street, build etc. *</label>
+                </div>
+                <p class="form__message">You will receive a verification code</p>
+                <div class="form__el">
+                  <input type="text" class="input input--txt form__el-input" id="phone_number" />
+                  <label class="form__el-label" for="phone_number">Phone Number *</label>
+                  <div class="form__el-btns-input">
+                    <input type="button" value="Send" class="input input--btn" />
+                  </div>
+                </div>
+                <div class="form__el form__el--filled">
+                  <p class="form__el-label">Enter the code you received</p>
+                  <div class="form__el-verification">
+                    <input type="text" maxlength="1" class="input">
+                    <input type="text" maxlength="1" class="input">
+                    <input type="text" maxlength="1" class="input">
+                    <img src="../assets/images/icons/business structure/line.svg">
+                    <input type="text" maxlength="1" class="input">
+                    <input type="text" maxlength="1" class="input">
+                    <input type="text" maxlength="1" class="input">
+                    <img src="../assets/images/icons/business structure/verification_valiable.svg"
+                      class="form__el-verification-valiable">
+                  </div>
+                  <div class="txt--small txt--error">The number you entered doesn't match your code. Please, try again
+                  </div>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="website" />
+                  <label class="form__el-label" for="website">Website *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <select id="platform" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="platform">Platform *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <select id="revenue" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="revenue">Revenue *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <p class="form__el-label">Type of business *</p>
+                  <div class="form__el-radio">
+                    <label class="form__el-radio-label form__el-radio-label--checked">
+                      <input type="radio" name="radio" class="input--radio" checked>
+                      Sole-Proprietorship
+                    </label>
+                    <label class="form__el-radio-label">
+                      <input type="radio" name="radio" class="input--radio">
+                      Corporation
+                    </label>
+                  </div>
+                </div>
+                <input type="button" value="Next" class="input input--btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content__container main-content__container--second">
+          <h2 class="main-content__title">
+            Personal Information
+          </h2>
+          <div class="main-content__block">
+            <div class="main-content__block-info">
+              <p class="txt">
+                Tell us some basics about your business
+              </p>
+              <div class="main-content__block-info-img">
+                <img src="../assets/images/icons/business structure/block_2_1of3.svg" class="main-content__img">
+                <div class="main-content__block-info-img-btns">
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_left.svg">
+                  </button>
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_right.svg">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="main-content__block-form">
+              <form class="form">
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="legal_business_name" />
+                  <label class="form__el-label" for="legal_business_name">Legal business name *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="company_registration_number" />
+                  <label class="form__el-label" for="company_registration_number">Company registration number *</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="vat_number" />
+                  <label class="form__el-label" for="vat_number">VAT number</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="doing_business_as" />
+                  <label class="form__el-label" for="doing_business_as">Doing business as</label>
+                </div>
+                <input type="button" value="Next" class="input input--btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content__container main-content__container--third">
+          <h2 class="main-content__title">
+            Personal Information
+          </h2>
+          <div class="main-content__block">
+            <div class="main-content__block-info">
+              <p class="txt">
+                A payout is the transfer of funds from stripe to your bank account. Link your account to seamlessly
+                receive payouts and help us better understand your business.
+              </p>
+              <div class="main-content__block-info-img">
+                <img src="../assets/images/icons/business structure/block_3_1of3.svg" class="main-content__img">
+                <img src="../assets/images/icons/business structure/block_3_1of2.svg" class="main-content__img main-content__img--sole-proprietorship">
+                <div class="main-content__block-info-img-btns">
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_left.svg">
+                  </button>
+                  <button class="button">
+                    <img src="../assets/images/icons/business structure/arrow_right.svg">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="main-content__block-form">
+              <form class="form">
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="select_an_account" />
+                  <label class="form__el-label" for="select_an_account">Select an account for payouts	</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <select id="routing_number" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="routing_number">Routing number</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <select id="account_number" class="input input--txt input--select">
+                    <option value="value1" selected></option>
+                  </select>
+                  <label class="form__el-label" for="account_number">Account number</label>
+                </div>
+                <div class="form__el form__el--filled">
+                  <input type="text" class="input input--txt form__el-input" id="repeat_account_number" />
+                  <label class="form__el-label" for="repeat_account_number">Repeat account number</label>
+                </div>
+                <input type="button" value="Confirm" class="input input--btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

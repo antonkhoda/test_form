@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="body-grey"></div>
   <header class="header">
     <div class="wrapper">
       <div class="header-box">
@@ -17,99 +18,97 @@
       </div>
     </div>
   </header>
-  <main class="body-grey">
-    <div class="main wrapper">
-      <aside class="main-menu main-menu--padding">
-        <a href="#" class="link main-menu__link main-menu__link--active">
-          <img src="../assets/images/icons/profile/personal_profile.svg" class="main-menu__link-block" />
-          <img src="../assets/images/icons/profile/personal_profile_active.svg" class="main-menu__link-block--active" />
-          Home
-        </a>
-        <a href="#" class="link main-menu__link">
-          <img src="../assets/images/icons/profile/phone.svg" class="main-menu__link-block" />
-          <!-- <img src="../assets/images/icons/profile/company_profile_active.svg" class="main-menu__link-block--active" /> -->
-          Sellers' application
-        </a>
-        <a href="#" class="link main-menu__link">
-          <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
-          <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
-          Products
-        </a>
-        <div class="main-menu__settings main-menu__settings--active">
-          <div class="settings">
-            <div class="settings-header">
-              <div class="settings-header__photo"></div>
-              <div class="settings-header__info">
-                <span class="settings-header__info-name">John Smith</span>
-                <span>Seller</span>
-              </div>
+  <main class="main wrapper">
+    <aside class="main-menu main-menu--padding">
+      <a href="#" class="link main-menu__link main-menu__link--active">
+        <img src="../assets/images/icons/profile/personal_profile.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/personal_profile_active.svg" class="main-menu__link-block--active" />
+        Home
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/phone.svg" class="main-menu__link-block" />
+        <!-- <img src="../assets/images/icons/profile/company_profile_active.svg" class="main-menu__link-block--active" /> -->
+        Sellers' application
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
+        Products
+      </a>
+      <div class="main-menu__settings main-menu__settings--active">
+        <div class="settings">
+          <div class="settings-header">
+            <div class="settings-header__photo"></div>
+            <div class="settings-header__info">
+              <span class="settings-header__info-name">John Smith</span>
+              <span>Seller</span>
             </div>
-            <a href="#" class="link settings-link">
-              <img src="../assets/images/icons/settings/profile.svg" class="settings-link__img" />
-              <img src="../assets/images/icons/settings/profile_active.svg" class="settings-link__img--active" />
-              Profile
-            </a>
-            <a href="#" class="link settings-link">
-              <img src="../assets/images/icons/settings/log_out.svg" class="settings-link__img" />
-              <img src="../assets/images/icons/settings/log_out_active.svg" class="settings-link__img--active" />
-              Log Out
-            </a>
           </div>
-          <div class="main-menu__footer">
-            <a href="#" class="link main-menu__link main-menu__footer-close">
-              <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
-            </a>
-          </div>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/profile.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/profile_active.svg" class="settings-link__img--active" />
+            Profile
+          </a>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/log_out.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/log_out_active.svg" class="settings-link__img--active" />
+            Log Out
+          </a>
         </div>
         <div class="main-menu__footer">
           <a href="#" class="link main-menu__link main-menu__footer-close">
             <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
           </a>
         </div>
-      </aside>
-      <section class="main-box">
-        <p class="main-box__bread-crumbs">Profile/ Edition</p>
-        <h2 class="main-box__title">Personal Profile</h2>
-        <div class="main-content">
-          <div class="main-content__title">
-            John Smith
-            <a href="#">
-              <img src="../assets/images/icons/pencil.svg">
-            </a>
-          </div>
-          <hr class="line">
-          <form class="form main-content__form">
-            <div class="form__el">
-              <input type="text" class="input input--txt form__el-input" id="firstName" />
-              <label class="form__el-label" for="firstName">First Name</label>
-            </div>
-            <div class="form__el form__el--filled">
-              <input type="text" class="input input--txt form__el-input" id="lastName" />
-              <label class="form__el-label" for="lastName">Last Name</label>
-            </div>
-            <div class="form__el">
-              <input type="email" class="input input--txt form__el-input" id="email" />
-              <label class="form__el-label" for="email">Email</label>
-            </div>
-            <div class="form__el">
-              <input type="password" class="input input--txt form__el-input" id="password" />
-              <label class="form__el-label" for="password">Password</label>
-              <div class="form__el-btns">
-                <div class="form__el-eye form__el-eye--checked"></div>
-              </div>
-            </div>
-            <div class="form__el">
-              <input type="text" class="input input--txt form__el-input" id="password" />
-              <label class="form__el-label" for="password">Phone number</label>
-            </div>
-            <div class="form__btns">
-              <input type="button" value="Cancel" class="input input--btn input--btn--light" />
-              <input type="button" value="Confirm" class="input input--btn" />
-            </div>
-          </form>
+      </div>
+      <div class="main-menu__footer">
+        <a href="#" class="link main-menu__link main-menu__footer-close">
+          <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+        </a>
+      </div>
+    </aside>
+    <section class="main-box">
+      <p class="main-box__bread-crumbs">Profile/ Edition</p>
+      <h2 class="main-box__title">Personal Profile</h2>
+      <div class="main-content">
+        <div class="main-content__title">
+          John Smith
+          <a href="#">
+            <img src="../assets/images/icons/pencil.svg">
+          </a>
         </div>
-      </section>
-    </div>
+        <hr class="line">
+        <form class="form main-content__form">
+          <div class="form__el">
+            <input type="text" class="input input--txt form__el-input" id="firstName" />
+            <label class="form__el-label" for="firstName">First Name</label>
+          </div>
+          <div class="form__el form__el--filled">
+            <input type="text" class="input input--txt form__el-input" id="lastName" />
+            <label class="form__el-label" for="lastName">Last Name</label>
+          </div>
+          <div class="form__el">
+            <input type="email" class="input input--txt form__el-input" id="email" />
+            <label class="form__el-label" for="email">Email</label>
+          </div>
+          <div class="form__el">
+            <input type="password" class="input input--txt form__el-input" id="password" />
+            <label class="form__el-label" for="password">Password</label>
+            <div class="form__el-btns">
+              <div class="form__el-eye form__el-eye--checked"></div>
+            </div>
+          </div>
+          <div class="form__el">
+            <input type="text" class="input input--txt form__el-input" id="password" />
+            <label class="form__el-label" for="password">Phone number</label>
+          </div>
+          <div class="form__btns">
+            <input type="button" value="Cancel" class="input input--btn input--btn--light" />
+            <input type="button" value="Confirm" class="input input--btn" />
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
 </body>
 
