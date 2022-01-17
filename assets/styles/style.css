@@ -676,7 +676,8 @@ option {
   display: block;
 }
 
-.main-menu__settings--active .main-menu__settings-link {
+.main-menu__settings--active .main-menu__settings-link,
+.main-menu__settings--active .main-menu__footer-settings {
   display: none;
 }
 
@@ -788,12 +789,14 @@ option {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
+  padding-right: 60px;
   background-color: #f6f6f6;
 }
 
 .main-content--bricks--small,
 .main-content--bricks--big,
-.main-content--bricks--medium {
+.main-content--bricks--medium,
+.main-content--bricks--max {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 30px;
@@ -805,11 +808,24 @@ option {
 }
 
 .main-content--bricks--small {
-  width: 370px;
+  width: 400px;
 }
 
 .main-content--bricks--medium {
   width: 48%;
+}
+
+.main-content--bricks--max{
+  width: 100%;
+  padding: 60px;
+}
+
+.main-content--bricks--max .bricks-content-title{
+  margin-bottom: 30px;
+}
+
+.main-content--bricks--max .bricks-content-txt{
+  margin: 0;
 }
 
 .main-content__colums{
@@ -841,7 +857,14 @@ option {
 }
 
 .bricks-content {
+  position: relative;
   font-size: 14px;
+}
+
+.bricks-content-img{
+  position: absolute;
+  top: 75px;
+  left: 265px;
 }
 
 .bricks-content-title {
@@ -856,7 +879,7 @@ option {
 }
 
 .bricks-btn {
-  width: 80%;
+  width: 245px;
 }
 
 .graph-money,

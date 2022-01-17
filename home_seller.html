@@ -85,73 +85,83 @@
               Log Out
             </a>
           </div>
-          <a href="#" class="link main-menu__link main-menu__settings-link">
-            <img src="./assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
-            <img src="./assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
-            Settings
-          </a>
+          <div class="main-menu__footer">
+            <a href="#" class="link main-menu__link main-menu__footer-settings">
+              <img src="./assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
+              <img src="./assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
+              Settings
+            </a>
+            <a href="#" class="link main-menu__link main-menu__footer-close">
+              <img src="./assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+            </a>
+          </div>
         </div>
       </aside>
-      <div class="main-content main-content--bricks">
-        <div class="main-content--bricks--small bricks-content">
-          <h3 class="bricks-title">Company Name</h3>
-          <h2 class="bricks-content-title">
-            Welcome,
-            <span>John!</span>
-          </h2>
-          <div class="bricks-content-txt">
-            Your AmnaPay account is ready for your use. Let's get it funded
-          </div>
-          <input type="button" value="Found Account" class="input input--btn bricks-btn" />
-        </div>
-        <div class="main-content--bricks--big">
-          <h3 class="bricks-title">AmnaPay Balance</h3>
-          <div class="graph">
-            <h2 class="graph-money">$ 0.00</h2>
-            <div class="graph-status graph-status--negative">
-              <img src="./assets/images/icons/content/arrow-positive.svg"
-                class="graph-status__img graph-status__img--positive" />
-              <img src="./assets/images/icons/content/arrow-positive.svg"
-                class="graph-status__img graph-status__img--negative" />
-              <span>$0.00 Today, Dec 23</span>
+      <section class="main-box">
+        <p class="main-box__bread-crumbs">Profile/ Edition</p>
+        <h2 class="main-box__title">Personal Profile</h2>
+        <div class="main-content--bricks">
+          <div class="main-content--bricks--small bricks-content">
+            <h3 class="bricks-title">Company Name</h3>
+            <h2 class="bricks-content-title">
+              Welcome,
+              <span>John!</span>
+            </h2>
+            <div class="bricks-content-txt">
+              Your AmnaPay account is ready for your use. Let's get it funded
             </div>
-            <div class="graph-body">
-              <div class="graph-body__bottom">
-                <div>nov 27</div>
-                <div>nov 27</div>
-                <div>nov 27</div>
-                <div>nov 27</div>
-                <div>nov 27</div>
-                <div>nov 27</div>
+            <input type="button" value="Found Account" class="input input--btn bricks-btn" />
+          </div>
+          <div class="main-content--bricks--big">
+            <h3 class="bricks-title">AmnaPay Balance</h3>
+            <div class="graph">
+              <h2 class="graph-money">$ 0.00</h2>
+              <div class="graph-status graph-status--negative">
+                <img src="./assets/images/icons/content/arrow-positive.svg"
+                  class="graph-status__img graph-status__img--positive" />
+                <img src="./assets/images/icons/content/arrow-positive.svg"
+                  class="graph-status__img graph-status__img--negative" />
+                <span>$0.00 Today, Dec 23</span>
+              </div>
+              <div class="graph-body">
+                <div class="graph-body__bottom">
+                  <div>nov 27</div>
+                  <div>nov 27</div>
+                  <div>nov 27</div>
+                  <div>nov 27</div>
+                  <div>nov 27</div>
+                  <div>nov 27</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-content--bricks--medium">
+            <h3 class="bricks-title">Money out last 30 days</h3>
+            <div class="bricks-content">
+              <h2 class="bricks-content__money">$ 0.00</h2>
+              <div class="bricks-content__status">
+                No outgoing transactions yet.
+              </div>
+              <div class="bricks-content__links">
+                <a href="#" class="link txt--blue bricks-content__links-item">View All</a>
+              </div>
+            </div>
+          </div>
+          <div class="main-content--bricks--medium">
+            <h3 class="bricks-title">Money out last 30 days</h3>
+            <div class="bricks-content">
+              <h2 class="bricks-content__money">$ 0.00</h2>
+              <div class="bricks-content__status">
+                No outgoing transactions yet.
+              </div>
+              <div class="bricks-content__links">
+                <a href="#" class="link txt--blue bricks-content__links-item">View All</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="main-content--bricks--medium">
-          <h3 class="bricks-title">Money out last 30 days</h3>
-          <div class="bricks-content">
-            <h2 class="bricks-content__money">$ 0.00</h2>
-            <div class="bricks-content__status">
-              No outgoing transactions yet.
-            </div>
-            <div class="bricks-content__links">
-              <a href="#" class="link txt--blue bricks-content__links-item">View All</a>
-            </div>
-          </div>
-        </div>
-        <div class="main-content--bricks--medium">
-          <h3 class="bricks-title">Money out last 30 days</h3>
-          <div class="bricks-content">
-            <h2 class="bricks-content__money">$ 0.00</h2>
-            <div class="bricks-content__status">
-              No outgoing transactions yet.
-            </div>
-            <div class="bricks-content__links">
-              <a href="#" class="link txt--blue bricks-content__links-item">View All</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
+      
     </div>
   </main>
 </body>
