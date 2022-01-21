@@ -1036,7 +1036,7 @@ option {
 }
 
 .popup--active .label-btn,
-.table-status::after{
+.popup--active .table-status::after{
   transform: rotate(180deg);
 }
 
