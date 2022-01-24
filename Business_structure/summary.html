@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>business structure 2</title>
+  <title>summary</title>
   <link rel="stylesheet" href="../assets/styles/style.css" />
 </head>
 
@@ -19,43 +19,47 @@
     </div>
   </header>
   <main class="main wrapper">
-    <aside class="main-menu main-menu--padding">
+    <aside class="main-menu">
+      <div class="main-menu__header">
+        <span>Settings</span>
+        <a href="#" class="main-menu__header-close"></a>
+      </div>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/personal_profile.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/personal_profile_active.svg" class="main-menu__link-block--active" />
+        Personal profile
+      </a>
       <a href="#" class="link main-menu__link main-menu__link--active">
-        <img src="../assets/images/icons/profile/home.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/home_active.svg" class="main-menu__link-block--active" />
-        Home
+        <img src="../assets/images/icons/profile/company_profile.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/company_profile_active.svg" class="main-menu__link-block--active" />
+        Company profile
       </a>
       <a href="#" class="link main-menu__link">
-        <img src="../assets/images/icons/profile/transactions.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/transactions_active.svg" class="main-menu__link-block--active" />
-        Transactions
+        <img src="../assets/images/icons/profile/integrations.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/integrations_active.svg" class="main-menu__link-block--active" />
+        Integrations
       </a>
       <a href="#" class="link main-menu__link">
-        <img src="../assets/images/icons/profile/payments.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/payments_active.svg" class="main-menu__link-block--active" />
-        Payments
+        <img src="../assets/images/icons/profile/api_tokens.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/api_tokens_active.svg" class="main-menu__link-block--active" />
+        API tokens
       </a>
       <a href="#" class="link main-menu__link">
-        <img src="../assets/images/icons/profile/cards.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/cards_active.svg" class="main-menu__link-block--active" />
-        Cards
+        <img src="../assets/images/icons/profile/team.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/team_active.svg" class="main-menu__link-block--active" />
+        Team
       </a>
       <a href="#" class="link main-menu__link">
-        <img src="../assets/images/icons/profile/account.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/account_active.svg" class="main-menu__link-block--active" />
-        Account
+        <img src="../assets/images/icons/profile/notification.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/notification_active.svg" class="main-menu__link-block--active" />
+        Notification
       </a>
       <a href="#" class="link main-menu__link">
-        <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
-        <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
-        Products
+        <img src="../assets/images/icons/profile/security.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/security_active.svg" class="main-menu__link-block--active" />
+        Security
       </a>
       <div class="main-menu__footer">
-        <a href="#" class="link main-menu__link main-menu__footer-settings">
-          <img src="../assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
-          <img src="../assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
-          Settings
-        </a>
         <a href="#" class="link main-menu__link main-menu__footer-close">
           <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
         </a>
@@ -65,11 +69,16 @@
       <p class="main-box__bread-crumbs">Profile/ Edition</p>
       <h2 class="main-box__title">Summary</h2>
       <div class="main-content">
-        <div class="main-content__title">
-          Amna Financial
-          <a href="#" class="link">
-            <img src="../assets/images/icons/pencil.svg">
-          </a>
+        <div class="main-content__title main-content__title--flex">
+          <div class="main-content__title-item">
+            <p class="txt">Amna Financial</p>      
+            <a href="#" class="link">
+              <img src="../assets/images/icons/pencil.svg">
+            </a>
+          </div>
+          <div class="main-content__title-item">
+            <input type="button" value="Need info" class="input input--btn input--btn--yellow">
+          </div>
         </div>
         <hr class="line">
         <div class="main-content__colums">
@@ -96,6 +105,22 @@
             <p>123456789</p>
             <p>123456789</p>
             <p>Lorem</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="main-content__colums">
+          <div class="main-content__colums-item">
+            <h3 class="title">History</h3>
+            <p>
+              <span class="txt--blue">John Smith</span>
+              <span class="txt--black">made changes - 17/Dec/21 5:15 PM</span>
+            </p>
+            <p>Object</p>
+            <p>Address: street, build etc.	*</p>
+          </div>
+          <div class="main-content__colums-item main-content__colums-item--bottom">
+            <p>Action</p>
+            <p>Bobst Library 70 Washington Square South, New York, NY 10012, United States</p>
           </div>
         </div>
         <hr class="line">

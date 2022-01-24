@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>summary</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+</head>
+
+<body>
+  <div class="body-grey"></div>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-box">
+        <a href="#" class="header-box__logo"></a>
+      </div>
+    </div>
+  </header>
+  <main class="main wrapper">
+    <aside class="main-menu main-menu--padding">
+      <a href="#" class="link main-menu__link ">
+        <img src="../assets/images/icons/profile/personal_profile.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/personal_profile_active.svg" class="main-menu__link-block--active" />
+        Home
+      </a>
+      <a href="#" class="link main-menu__link main-menu__link--active">
+        <img src="../assets/images/icons/profile/phone.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/phone_active.svg" class="main-menu__link-block--active" />
+        Sellers' application
+      </a>
+      <a href="#" class="link main-menu__link">
+        <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
+        <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
+        Products
+      </a>
+      <div class="main-menu__settings">
+        <div class="settings">
+          <div class="settings-header">
+            <div class="settings-header__photo"></div>
+            <div class="settings-header__info">
+              <span class="settings-header__info-name">John Smith</span>
+              <span>Seller</span>
+            </div>
+          </div>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/profile.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/profile_active.svg" class="settings-link__img--active" />
+            Profile
+          </a>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/team.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/team_active.svg" class="settings-link__img--active" />
+            Team
+          </a>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/docs_statements.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/docs_statements_active.svg" class="settings-link__img--active" />
+            Docs & statements
+          </a>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/data_export.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/data_export_active.svg" class="settings-link__img--active" />
+            Data export
+          </a>
+          <a href="#" class="link settings-link">
+            <img src="../assets/images/icons/settings/log_out.svg" class="settings-link__img" />
+            <img src="../assets/images/icons/settings/log_out_active.svg" class="settings-link__img--active" />
+            Log Out
+          </a>
+        </div>
+        <div class="main-menu__footer">
+          <a href="#" class="link main-menu__link main-menu__footer-settings">
+            <img src="../assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
+            <img src="../assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
+            Settings
+          </a>
+          <a href="#" class="link main-menu__link main-menu__footer-close">
+            <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+          </a>
+        </div>
+      </div>
+    </aside>
+    <section class="main-box">
+      <p class="main-box__bread-crumbs">Profile/ Edition</p>
+      <div class="main-box__title main-box__title--flex">
+        <h2 class="title">Summary</h2>
+        <div class="popup popup--active">
+          <!-- popup--active -->
+          <input type="text" class="input input--status" id="status">
+          <label class="label" for="status">Status:</label>
+          <label class="label-btn" for="status"></label>
+          <div class="input-count">2</div>
+          <div class="popup-menu popup-menu--status">
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox" checked>
+              <span class="txt">All</span>
+            </label>
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox" checked>
+              <span class="txt">New</span>
+            </label>
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox">
+              <span class="txt">On review</span>
+            </label>
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox">
+              <span class="txt">Need info</span>
+            </label>
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox">
+              <span class="txt">Rejected</span>
+            </label>
+            <label class="popup-menu__item">
+              <input type="checkbox" class="input--checkbox">
+              <span class="txt">Approved</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-content__title main-content__title--flex">
+          <div class="main-content__title-item">
+            <p class="txt">Amna Financial</p>
+            <p class="txt txt--orange">on review</p>
+          </div>
+          <div class="main-content__title-item">
+            <button class="input input--btn input--btn--plus">Add Comment</button>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="main-content__colums">
+          <div class="main-content__colums-item">
+            <h3 class="title">Personal Information</h3>
+            <p>USA, New York</p>
+            <p>Rabat, 4 km, Route des ZaiersRabat, 4 km</p>
+            <p>+1 650-385-8068</p>
+            <p class="txt--blue">www.lorem.com</p>
+            <p>Lorem platform</p>
+            <p>Lorem Revenue</p>
+            <p>Type of business: Sole-Proprietorship</p>
+            <p>Identification Number: 1234567890</p>
+          </div>
+          <div class="main-content__colums-item">
+            <h3 class="title">Bank details</h3>
+            <p>Account for payouts: UA853003460000026008024423201</p>
+            <p>Routing number: 123456789</p>
+            <p>Account number: 123456789</p>
+          </div>
+        </div>
+        <hr class="line">
+        <div class="main-content__item">
+          <div class="title title--switch">
+            <a href="#" class="link">Products</a>
+            <a href="#" class="link">Transactions</a>
+            <a href="#" class="link">Notifications</a>
+            <a href="#" class="link link--active">History</a>
+          </div>
+          <div class="main-content__colums">
+            <div class="main-content__colums-item">
+              <p>
+                <span class="txt--blue">John Smith</span>
+                <span class="txt--black">made changes - 17/Dec/21 5:15 PM</span>
+              </p>
+              <p>Object</p>
+              <p>Address: street, build etc. *</p>
+            </div>
+            <div class="main-content__colums-item main-content__colums-item--bottom">
+              <p>Action</p>
+              <p>Bobst Library 70 Washington Square South, New York, NY 10012, United States</p>
+            </div>
+          </div>
+        </div>
+        <hr class="line">
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
