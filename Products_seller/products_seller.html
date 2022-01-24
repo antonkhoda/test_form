@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products seller</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-box">
+        <a href="#" class="header-box__logo"></a>
+      </div>
+    </div>
+  </header>
+  <main class="body-grey">
+    <div class="main wrapper">
+      <aside class="main-menu main-menu--padding">
+        <a href="#" class="link main-menu__link">
+          <img src="../assets/images/icons/profile/home.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/home_active.svg" class="main-menu__link-block--active" />
+          Home
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img src="../assets/images/icons/profile/transactions.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/transactions_active.svg" class="main-menu__link-block--active" />
+          Transactions
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img src="../assets/images/icons/profile/payments.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/payments_active.svg" class="main-menu__link-block--active" />
+          Payments
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img src="../assets/images/icons/profile/cards.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/cards_active.svg" class="main-menu__link-block--active" />
+          Cards
+        </a>
+        <a href="#" class="link main-menu__link">
+          <img src="../assets/images/icons/profile/account.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/account_active.svg" class="main-menu__link-block--active" />
+          Account
+        </a>
+        <a href="#" class="link main-menu__link main-menu__link--active">
+          <img src="../assets/images/icons/profile/products.svg" class="main-menu__link-block" />
+          <img src="../assets/images/icons/profile/products_active.svg" class="main-menu__link-block--active" />
+          Products
+        </a>
+        <div class="main-menu__settings">
+          <div class="settings">
+            <div class="settings-header">
+              <div class="settings-header__photo"></div>
+              <div class="settings-header__info">
+                <span class="settings-header__info-name">John Smith</span>
+                <span>Seller</span>
+              </div>
+            </div>
+            <a href="#" class="link settings-link">
+              <img src="../assets/images/icons/settings/profile.svg" class="settings-link__img" />
+              <img src="../assets/images/icons/settings/profile_active.svg" class="settings-link__img--active" />
+              Profile
+            </a>
+            <a href="#" class="link settings-link">
+              <img src="../assets/images/icons/settings/team.svg" class="settings-link__img" />
+              <img src="../assets/images/icons/settings/team_active.svg" class="settings-link__img--active" />
+              Team
+            </a>
+            <a href="#" class="link settings-link">
+              <img src="../assets/images/icons/settings/docs_statements.svg" class="settings-link__img" />
+              <img src="../assets/images/icons/settings/docs_statements_active.svg"
+                class="settings-link__img--active" />
+              Docs & statements
+            </a>
+            <a href="#" class="link settings-link">
+              <img src="../assets/images/icons/settings/data_export.svg" class="settings-link__img" />
+              <img src="../assets/images/icons/settings/data_export_active.svg" class="settings-link__img--active" />
+              Data export
+            </a>
+            <a href="#" class="link settings-link">
+              <img src="../assets/images/icons/settings/log_out.svg" class="settings-link__img" />
+              <img src="../assets/images/icons/settings/log_out_active.svg" class="settings-link__img--active" />
+              Log Out
+            </a>
+          </div>
+          <div class="main-menu__footer">
+            <a href="#" class="link main-menu__link main-menu__footer-settings">
+              <img src="../assets/images/icons/profile/settings.svg" class="main-menu__link-block" />
+              <img src="../assets/images/icons/profile/settings_active.svg" class="main-menu__link-block--active" />
+              Settings
+            </a>
+            <a href="#" class="link main-menu__link main-menu__footer-close">
+              <img src="../assets/images/icons/profile/arrow.svg" class="main-menu__link-block" />
+            </a>
+          </div>
+        </div>
+      </aside>
+      <section class="main-box">
+        <p class="main-box__bread-crumbs">Profile/ Edition</p>
+        <div class="main-box__title main-box__title--flex">
+          <h2 class="title">Products</h2>
+          <button class="input input--btn input--btn--plus">Add Comment</button>
+        </div>
+        <div class="main-header">
+          <div class="main-header__filters">
+            <div class="main-header__filters-item popup">
+              <!-- popup--active -->
+              <input type="text" class="input input--status" id="status">
+              <label class="label" for="status">Status:</label>
+              <label class="label-btn" for="status"></label>
+              <div class="input-count">2</div>
+              <div class="popup-menu popup-menu--status">
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox" checked>
+                  <span class="txt">All</span>
+                </label>
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox" checked>
+                  <span class="txt">New</span>
+                </label>
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox">
+                  <span class="txt">On review</span>
+                </label>
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox">
+                  <span class="txt">Need info</span>
+                </label>
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox">
+                  <span class="txt">Rejected</span>
+                </label>
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox">
+                  <span class="txt">Approved</span>
+                </label>
+              </div>
+            </div>
+            <div class="main-header__filters-item popup">
+              <!-- popup--active -->
+              <input type="text" class="input input--date" id="date">
+              <label class="label" for="date">Date:</label>
+              <label class="label-btn" for="date"></label>
+              <div class="popup-menu popup-menu--date">
+                <div class="popup-menu__tables">
+                  <table class="table table--calendar">
+                    <thead>
+                      <caption class="table-month">
+                        <a href="#" class="table-month__prev"></a>
+                        <p class="table-month__name">November</p>
+                        <a href="#" class="table-month__next"></a>
+                      </caption>
+                      <tr>
+                        <th>Su</th>
+                        <th>Mo</th>
+                        <th>Tu</th>
+                        <th>We</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>Sa</th>
+                      <tr>
+                    </thead>
+                    <tbody>
+                      <tr class="table--calendar-spacing">
+                        <td class="table-opacity">30</td>
+                        <td class="table-opacity">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td class="table-point table-mark-start">17</td>
+                        <td class="table-interval">18</td>
+                        <td class="table-interval">19</td>
+                      </tr>
+                      <tr>
+                        <td class="table-interval">20</td>
+                        <td class="table-interval">21</td>
+                        <td class="table-interval">22</td>
+                        <td class="table-mark-end">23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                      </tr>
+                      <tr>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td class="table-opacity">1</td>
+                        <td class="table-opacity">2</td>
+                        <td class="table-opacity">3</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="table table--calendar">
+                    <thead>
+                      <caption class="table-month">
+                        <a href="#" class="table-month__prev"></a>
+                        <p class="table-month__name">December</p>
+                        <a href="#" class="table-month__next"></a>
+                      </caption>
+                      <tr>
+                        <th>Su</th>
+                        <th>Mo</th>
+                        <th>Tu</th>
+                        <th>We</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>Sa</th>
+                      <tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="table-opacity">30</td>
+                        <td class="table-opacity">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td class="table-point">17</td>
+                        <td>18</td>
+                        <td>19</td>
+                      </tr>
+                      <tr>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                      </tr>
+                      <tr>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td class="table-opacity">1</td>
+                        <td class="table-opacity">2</td>
+                        <td class="table-opacity">3</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="popup-menu__bottom">
+                  <div class="popup-menu__bottom-control">
+                    <input type="text" class="input input--date">
+                    <img src="../assets/images/icons/table/arrow-input.svg" class="img">
+                    <input type="text" class="input input--date">
+                  </div>
+                  <div class="popup-menu__bottom-btns">
+                    <input type="button" value="Cancel" class="input input--btn input--btn--light" />
+                    <input type="button" value="Set" class="input input--btn" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-header__filters-item popup">
+              <!-- popup--active -->
+              <input type="text" class="input input--status" id="status">
+              <label class="label" for="status">Currency:</label>
+              <label class="label-btn" for="status"></label>
+              <div class="popup-menu popup-menu--status">
+                <label class="popup-menu__item">
+                  <input type="checkbox" class="input--checkbox" checked>
+                  <span class="txt">$ USD</span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="main-header__searcher">
+            <div class="searcher">
+              <input type="text" class="input input--searcher" id="searcher"
+                placeholder="Search exact name, company etc...">
+              <label class="searcher-loupe" for="searcher">
+                <img src="../assets/images/icons/loupe.svg">
+              </label>
+            </div>
+
+            <input type="button" value="Apply" class="input input--btn">
+          </div>
+        </div>
+        <div class="main-content main-table">
+          <table class="table table--main">
+            <tr>
+              <th class="table-medium-column">
+                <a href="#" class="link main-table__header-link">
+                  Name
+                </a>
+              </th>
+              <th class="table-big-column">DESCRIPTION</th>
+              <th>
+                <a href="#" class="link main-table__header-link">
+                  cost
+                  <img src="" class="img">
+                </a>
+              </th>
+              <th>Currency</th>
+              <th>Discount</th>
+              <th>City</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span> 
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>-</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--new">new</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>         
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--on-review">on review</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--need-info">need info</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--approved">approved</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--rejected">rejected</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--need-info">need info</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--approved">approved</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="main-table__main-name">
+                <a href="#" class="link main-table__main-name-img">
+                  <img src="../assets/images/test/car.jpg" class="img">
+                </a>           
+                <span class="txt">John Smith</span>
+              </td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ...consectetur adipiscing elit, se... </td>
+              <td>1 999 2876,99</td>
+              <td>$ USD</td>
+              <td>100 %</td>
+              <td>New Yourk</td>
+              <td class="main-table__main-status">
+                <span class="table-status table-status--rejected">rejected</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="main-footer">
+          <div class="main-footer__number">
+            <p class="txt">View</p>
+            <input type="text" class="input input--number">
+            <p class="txt">records per page</p>
+          </div>
+          <div class="main-footer__pages">
+            <p class="txt">Showing 1 to 50 of 2,210 entries</p>
+            <div class="main-footer__pages-controller page-controller">
+              <a href="#" class="link page-controller__prev">
+                <img src="../assets/images/icons/controller-prev.svg" class="page-controller__img">
+                Prev
+              </a>
+              <div class="page-controller__num">
+                <a href="#" class="link link--active">1</a>
+                <a href="#" class="link">2</a>
+                <a href="#" class="link">3</a>
+              </div>
+              <a href="#" class="link page-controller__next">
+                Next
+                <img src="../assets/images/icons/controller-next.svg" class="page-controller__img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</body>
+
+</html>
